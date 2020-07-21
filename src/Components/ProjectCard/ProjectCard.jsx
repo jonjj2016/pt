@@ -8,11 +8,11 @@ import Card from './Card';
 const ProjectCard = () => {
   return (
     <Main>
-      <Card webUrl='https://colorcode2020.netlify.app/' url='http://localhost:2000/stream/color_code' main />
+      <Card webUrl='https://colorcode2020.netlify.app/' url='videos/color_code.mp4' main />
       <div className='bottom'>
-        <Card webUrl='https://imagegallery2019.netlify.app/' url='http://localhost:2000/stream/image_gallery' />
-        <Card webUrl='https://mytypo.netlify.app/' url='http://localhost:2000/stream/typo' />
-        <Card webUrl='https://neuromorphic.netlify.app/' url='http://localhost:2000/stream/neumorph' />
+        <Card webUrl='https://imagegallery2019.netlify.app/' url='videos/image_gallery.mp4' />
+        <Card webUrl='https://mytypo.netlify.app/' url='videos/typo.mp4' />
+        <Card webUrl='https://neuromorphic.netlify.app/' url='videos/neumorph.mp4' />
         {/* //neumorph */}
       </div>
     </Main>
