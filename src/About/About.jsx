@@ -16,7 +16,7 @@ const About = () => {
         <h2>Lorem, ipsum dolor.</h2>
         <div>
           <p>Nowadays if you want to grow your bussiness or start new one you have to have web application to reach to your customers or audience</p>
-          <p>
+          <div>
             <strong>I'm here to help you help you to build one</strong> <br />
             With the combination of the art of design and science of programming build robust Web application.
             {/* With the use of latest technologies i can build robust Web application which will be easy to maintain and consistent across multiple platform */}
@@ -27,7 +27,7 @@ const About = () => {
               <li>Translate UI/UX design wireframes to actual code</li>
               <li>designing and create tools which help to boost production time and efficiency of the code.</li>
             </ul>
-          </p>
+          </div>
           <h2>Your Time is my priority.</h2>
         </div>
       </div>
