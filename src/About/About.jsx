@@ -5,22 +5,30 @@ import ProjectCard from '../Components/ProjectCard/ProjectCard';
 const About = () => {
   return (
     <Wrapper>
-      <Background>
+      {/* <Background>
         <div className='neumorph_1 neu'></div>
         <div className='neumorph_2 neu'></div>
         <div className='neumorph_3 neu'>
           <div className='inner'></div>
         </div>
-      </Background>
+      </Background> */}
       <div className='title'>
         <h2>Lorem, ipsum dolor.</h2>
         <div>
+          <p>Nowadays if you want to grow your bussiness or start new one you have to have web application to reach to your customers or audience</p>
           <p>
-            I am a 32 year old programming enthusiast with a solid experience developing software, web based applications and websites. <br /> I enjoy keeping up-to-date with the latest programming technologies and putting them to use when possible.{' '}
+            <strong>I'm here to help you help you to build one</strong> <br />
+            With the combination of the art of design and science of programming build robust Web application.
+            {/* With the use of latest technologies i can build robust Web application which will be easy to maintain and consistent across multiple platform */}
+            <ul>
+              <li>Enhance application for maximum speed and scalability</li>
+              <li>Develop new user facing features</li>
+              <li>Write reusable code and libraries</li>
+              <li>Translate UI/UX design wireframes to actual code</li>
+              <li>designing and create tools which help to boost production time and efficiency of the code.</li>
+            </ul>
           </p>
-          <p>I'm currently employed at Jutel Ltd. developing radio broadcasting solutions. When possible, I like to dabble with some open source projects. Be sure to check out my GitHub profile to see some of my code!</p>
-          See in action
-          <em>Lorem ipsum dolor sit amet consectetur adipisicing.</em>
+          <h2>Your Time is my priority.</h2>
         </div>
       </div>
       {/* <ProjectCard /> */}

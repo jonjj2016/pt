@@ -3,22 +3,15 @@ import styled from 'styled-components';
 import Flip from 'react-reveal/Flip';
 
 const Skills = () => {
+  const skills = ['JavaScript', 'HTML/CSS', 'Reactjs', 'Redux', 'Redux-Saga', 'SementicUI', 'NodeJs', 'Express', 'MongoDb', 'SocketIo'];
   return (
     <Skills_Wrapper>
       <h2>Skills</h2>
       <div className='skills'>
         <Flip top cascade>
-          <div>ES6</div>
-          <div>REACTJS</div>
-          <div>HTML/CSS</div>
-          <div>REDUX</div>
-          <div>REDUX SAGA</div>
-          <div>NODEJS</div>
-          <div>EXPRESS</div>
-          <div>MONGODB</div>
-          <div>SOCKET IO</div>
-          <div>GIT</div>
-          <div>SEMENTIC UI</div>
+          {skills.map((item, index) => {
+            return <div key={index}>{item}</div>;
+          })}
         </Flip>
       </div>
     </Skills_Wrapper>

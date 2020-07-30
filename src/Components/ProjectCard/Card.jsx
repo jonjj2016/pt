@@ -3,7 +3,7 @@ import StyleHoc from '../../HOC/animate.hox';
 import styled from 'styled-components';
 import Btn from '../Button/Btn';
 
-const Card = ({ webUrl, url, main = false }) => {
+const Card = ({ isImage, webUrl, url, main = false }) => {
   return (
     <StyleHoc>
       <Wrappper main={main}>
@@ -11,7 +11,8 @@ const Card = ({ webUrl, url, main = false }) => {
           <Btn url={webUrl} link clName={'fas fa-angle-double-right'} />
         </span>
         <div className='sticky'></div>
-        <video muted autoPlay loop src={url} />
+        {!isImage && <video muted autoPlay loop src={url} />}
+        {isImage && <img src={url} />}
       </Wrappper>
     </StyleHoc>
   );
@@ -32,7 +33,13 @@ const Wrappper = styled.div`
     opacity: 0.6;
     transition: 100ms;
   }
-
+  img {
+    object-fit: cover;
+    height: 100%;
+    border-radius: 20px;
+    width: 100%;
+    opacity: 0.9;
+  }
   video {
     object-fit: cover;
     position: relative;

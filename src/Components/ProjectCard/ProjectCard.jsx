@@ -13,6 +13,7 @@ const ProjectCard = () => {
         <Card webUrl='https://imagegallery2019.netlify.app/' url='videos/image_gallery.mp4' />
         <Card webUrl='https://mytypo.netlify.app/' url='videos/typo.mp4' />
         <Card webUrl='https://neuromorphic.netlify.app/' url='videos/neumorph.mp4' />
+        <Card isImage webUrl='https://www.npmjs.com/package/myreduxtypes' url='images/npm.png' />
         {/* //neumorph */}
       </div>
     </Main>
